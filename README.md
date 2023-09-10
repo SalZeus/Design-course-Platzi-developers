@@ -48,14 +48,16 @@ For more details, refer to the [brief document](https://github.com/mssroboto/dis
 
 ## importance of UX & UI
 
->UX.
+### UX
+
     1. design and interaction.
     2. Prototyping
     3. Information Architechture
     4. Insvestigation and user testing
->UI.
+
+### UI
+
     1. Visual design
     2. Colors
     3. Layouts
     4. Typography
-
