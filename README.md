@@ -37,3 +37,11 @@ For more details, refer to the [brief document](https://github.com/mssroboto/dis
 2. **Analysis** ⇒ Once the information is collected, analyze it to identify crucial points to consider when designing.
 3. **Design** ⇒ Create prototypes or sketches to visualize the final result.
 4. **User Testing** ⇒ Usually conducted on sketches to make necessary adjustments before transitioning to the actual design and coding.
+
+## Flow chart
+
+1. must include a clear path that the cusotmer will follow, for example
+
+1. Home/start -> Menu/index -> product details -> add item to the cart -> check the product or order -> pay the item -> add delivery details
+    1. if correct proceed to payment platform and complete payment - > payment successful -> confirmation -> homepage
+    2. if any of the steps are incorrect, indicate the error and ask the customer to deliver a corrected address format/payment method
