@@ -45,3 +45,17 @@ For more details, refer to the [brief document](https://github.com/mssroboto/dis
 1. Home/start -> Menu/index -> product details -> add item to the cart -> check the product or order -> pay the item -> add delivery details
     1. if correct proceed to payment platform and complete payment - > payment successful -> confirmation -> homepage
     2. if any of the steps are incorrect, indicate the error and ask the customer to deliver a corrected address format/payment method
+
+## importance of UX & UI
+
+>UX.
+    1. design and interaction.
+    2. Prototyping
+    3. Information Architechture
+    4. Insvestigation and user testing
+>UI.
+    1. Visual design
+    2. Colors
+    3. Layouts
+    4. Typography
+
