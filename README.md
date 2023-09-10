@@ -123,8 +123,8 @@ For more details, refer to the [brief document](https://github.com/mssroboto/dis
 
 ### Colors
 
-- Use Hexagecimal or RG colors
-- Create a consisten color code
-- Avoid Color excess, to avoid confusion and overwhelm the customer
-- Accessible (readable) Color code
-- Define a color pallette
+    - Use Hexagecimal or RG colors
+    - Create a consisten color code
+    - Avoid Color excess, to avoid confusion and overwhelm the customer
+    - Accessible (readable) Color code
+    - Define a color pallette
