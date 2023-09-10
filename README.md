@@ -1,46 +1,39 @@
-# Design course for Developers - Platzi
+# Design Course for Developers - Platzi
 
-## This is a note documents used to show all the concepts learnt (may contain items in spanish)
+## Overview
 
-Steps to create an effective creative design process
+This document serves as a comprehensive reference for all the concepts learned in the course. Please note that some content may be in Spanish.
 
-1.Preparation - investigate and compile
-2.Incubation - Experiment and Synthesize
-3.illumination - Create and imagine
-4.evaluation - Critisize and recreate
-5.Implementation - Build and work
+## Steps to Create an Effective Creative Design Process
 
-Creative process:
+1. **Preparation** - Investigate and Compile
+2. **Incubation** - Experiment and Synthesize
+3. **Illumination** - Create and Imagine
+4. **Evaluation** - Criticize and Recreate
+5. **Implementation** - Build and Work
 
--(investigation)Olga needs to make a birthday cake. Before starting she makes a inventory list and looks a couple of recipes out.
+## Creative Process
 
--(Exprimentation/incubation)After investigating Olga notices that all cake recipes require an oven, she then looks only recipes that do not require an oven.
+- *(Investigation)* Olga needs to make a birthday cake. Before starting, she creates an inventory list and explores a few recipes.
+- *(Experimentation/Incubation)* After investigating, Olga realizes that all cake recipes require an oven. She focuses on finding recipes that do not require an oven.
+- *(Illumination)* After considering several options, she decides to create a strawberry cheesecake.
+- *(Evaluation)* Before starting, she realizes that she doesn't have enough inventory, so she decides to make one with grapes instead.
+- *(Implementation)* Once everything is ready, Olga prepares a wonderful birthday cheesecake!
 
--(Illumination)After considering several options, she decides to create a strawberry cheesecake.
+## Technical Requirements
 
--(Evaluation)Before starting she realizes that she does not have enough inventory, so she will make one with Grapes instead.
+- Client or Product Description
+- Objectives and Challenges
+- Target Audience
+- Distribution or Delivery Approach
 
--(Implementation)Once everything is set, Olga prepares a wonderful birthday cheesecake!
+> It is crucial that this document is visually appealing for the customer.
 
-Technical requirements:
+For more details, refer to the [brief document](https://github.com/mssroboto/diseno-para-programadores/blob/master/1-brief/Brief..pdf).
 
--Client or product description
+## Definition of UX Design
 
--objectives and challenges
-
--Target audience
-
--how would it be the distributiopn or delivery
-
->it is important this document is visually appealing for the customer
-<https://github.com/mssroboto/diseno-para-programadores/blob/master/1-brief/Brief..pdf>
-
-Definition of UX design
-
--Research ⇒ Collect information to know what users mainly occupy. It is good to rely on existing applications to create a good UX design.
-
--Analysis ⇒ Once the information is collected, it is analyzed and the important points that we must take into account when creating the design are obtained.
-
--Design ⇒ Prototypes or sketches are created to visualize the result.
-
--User testing ⇒ Generally, they are carried out in sketches to make adjustments before taking the design to code.
+1. **Research** ⇒ Collect information to understand what users primarily need. Leveraging existing applications is beneficial in creating a good UX design.
+2. **Analysis** ⇒ Once the information is collected, analyze it to identify crucial points to consider when designing.
+3. **Design** ⇒ Create prototypes or sketches to visualize the final result.
+4. **User Testing** ⇒ Usually conducted on sketches to make necessary adjustments before transitioning to the actual design and coding.
