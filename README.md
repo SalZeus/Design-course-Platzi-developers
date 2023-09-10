@@ -61,3 +61,70 @@ For more details, refer to the [brief document](https://github.com/mssroboto/dis
     2. Colors
     3. Layouts
     4. Typography
+
+## Color Relationship - Latam culture
+
+1. Red
+    - passion
+        - food
+        - sports
+        - entertainment
+2. Orange
+    - Fun
+        - Art
+        - Food
+        - Events
+3. Yellow
+    - Happiness
+        - Food
+        - Shopping
+        - Socialization
+4. Light Green
+    - Harmony
+        - Environment
+        - Food
+        - Education
+5. Dark Green
+    - Security
+        - Agriculture
+        - Banks
+        - Real State
+6. Light blue
+    - Knowledge/wisdom
+        - Children products
+        - health
+        - Technology
+7. Dark blue
+    - Confidence
+        - Finances
+        - Health
+        - Insurances
+8. Purple
+    - Mystery
+        - Religion
+        - Products
+        - Alternatives
+9. Pink
+    - Love
+        - Beauty
+        - Style
+        - Children products
+10. Brown
+    - Stability
+        - Agriculture
+        - Legal
+        - Construction
+11. Gray
+    - Neutral
+        - All industries
+12. Black
+    - Elegance
+        - All industries
+
+### Colors
+
+- Use Hexagecimal or RG colors
+- Create a consisten color code
+- Avoid Color excess, to avoid confusion and overwhelm the customer
+- Accessible (readable) Color code
+- Define a color pallette
