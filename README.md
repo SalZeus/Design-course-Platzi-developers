@@ -123,8 +123,112 @@ For more details, refer to the [brief document](https://github.com/mssroboto/dis
 
 ### Colors
 
-    - Use Hexagecimal or RG colors
+    - Use Hexagecimal or RGB colors
     - Create a consisten color code
     - Avoid Color excess, to avoid confusion and overwhelm the customer
     - Accessible (readable) Color code
     - Define a color pallette
+
+### Typography
+
+    - font number to the minimum
+    - Use preferably standard fonts
+    - limit text quantity
+    - Typography must be legible in different font sizes
+    - High values of Line Height
+    - High contrast
+    - avoid using intermittent animation, and avoid incuding information hidden behind them
+
+## This is a .scss (Sass) example
+
+    $xs: 360px;
+    $s: 440px;
+    $m: 768px;
+    $l: 1280px;
+    $xl: 1440px;
+
+    @mixin for-size($size) {
+        @if $size == xs {
+            @media (max-width: $s) {
+            @content;
+            }
+        } @else if $size == m {
+            @media (min-width: $m) {
+            @content;
+            }
+        } @else if $size == l {
+            @media (min-width: $l) {
+            @content;
+            }
+        } @else if $size == xl {
+            @media (min-width: $xl) {
+                @content;
+            }
+        }
+    }
+
+    :root {
+        --columns: 4;
+        --column-gap: 6.67%;
+
+        @include for-size(m) {
+            --columns: 12;
+            --column-gap: 2.27%;
+        }
+
+        @include for-size(l) {
+            --columns: 12;
+            --column-gap: 2.19%;
+        }
+    }
+
+        .grid {
+        margin: 0 16px;
+
+        @include for-size(m) {
+            margin: 0 32px;
+        }
+
+        @include for-size(l) {
+            margin: 0 80px;
+        }
+
+        @include for-size(xl) {
+            margin: 0 auto;
+            max-width: 1280px;
+        }
+    }
+
+    .grid,
+    .subgrid {
+        display: grid;
+        grid-column-gap: var(--column-gap);
+        grid-template-columns: repeat(var(--columns), minmax(0, 1fr));
+        position: relative;
+    }
+
+## MOVING GRAPHICS FOR THE WEB
+
+## Formats for Moving Graphics
+
+- **Animated CSS:** Suitable for simple animations and transitions.
+
+- **Animated SVG:** Suitable for vector element animations.
+
+- **JS (Canvas, WebGL):** Suitable for complex animations like data animations or 3D. There are JS libraries that can be used for this type of animation.
+
+- **Videos:** Suitable for filming or high-complexity short animations. Always ask yourself: Do I really need this video? Because they are heavy and slow down the site's loading.
+
+## How to Choose Moving Graphics?
+
+- Choose animations that contribute to the content. Avoid overloading with too many animations.
+
+- Ensure that they do not play automatically, and if they do, ensure they have no sound.
+
+- Avoid animations with flashes. Continuous flashes are annoying and can be harmful.
+
+- If your animations provide content, add subtitles or transcriptions so that screen readers can read them.
+
+- Prevent animations from blocking basic content reading. An animation during reading is annoying, and screen readers won't be able to access that content.
+
+- Remember that animations and videos slow down page loading. Less is more, once again.
